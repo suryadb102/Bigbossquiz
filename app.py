@@ -9,6 +9,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.neighbors import KNeighborsClassifier
 import pickle
+
 model = pickle.load(open('model.pkl','rb'))
 
 firebaseConfig = {
