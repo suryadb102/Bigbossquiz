@@ -1,9 +1,7 @@
 firebase==3.0.1
 Flask==1.0.2
 Flask_Cors==3.0.10
-gunicorn==20.1.0
-numpy>= 1.11.0
-pandas  
+gunicorn==20.1.0 
 PyJWT==2.3.0
 pandas==0.24.2
 pyrebase
