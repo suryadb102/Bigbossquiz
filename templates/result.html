@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+   <title>BIG BOSS CHARACTER</title>
+   <link rel = "icon" href = "/static/website/eye.png" sizes="20x20 40x40" type = "image/x-icon">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style1.css')}}">  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Stylish&display=swap" rel="stylesheet">
+ <script src="https://kit.fontawesome.com/cb4a666717.js" crossorigin="anonymous"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<style>
+  .td
+{
+    display: table-cell;
+    vertical-align: middle;
+}
+   .jumbotron { 
+  padding: 30px; 
+  background-color: #AB2330;
+
+}
+#footer {
+  position: relative;
+  padding: 20px 20px 20px 20px;
+  width: 100%;
+  height: 200px;
+  background:black;
+}
+
+.parent {
+  text-align: center;
+  line-height: 10px;
+}
+.child {
+  display: inline-block;
+  vertical-align: middle;
+  padding-inline: 10px;
+}
+.child1 {
+  display: inline-block;
+  vertical-align: middle;
+  padding-inline: 10px;
+}
+.child2 {
+  display: inline-block;
+  vertical-align: middle;
+  padding-inline: 10px;
+}
+ 
+body {
+     background: #252c4a; 
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    color: white;
+    font-size: 20px;
+    /* background-image: url('https://acegif.com/wp-content/gif/confetti-31.gif'); */
+  }
+  
+</style>
+</head>
+<body>
+
+  <div id="logo"> 
+    <img src="/static/website/eye.png" style="float:left; width: 200px;"> 
+  </div> 
+  <div id="logo1"> 
+    <img src="/static/website/Kamal.jpeg" style="float:right; width: 170px;"> 
+  </div>  
+
+ <div class="jumbotron" style="float:center; ">
+        <div class="container">
+          <center><h1 class="display-4" style="color:white;font-size: 40px;">Hooray! See who matches your character!</h1></center>
+        </div>
+      </div> 
+
+ 
+        
+<!-- partial:index.partial.html -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet" />
+
+<div class = "container">
+ <center>
+    <center><h1 style="font-size: 30px; font-family: Garamond, serif;text-align: center; font-weight:bold">{{text}}</h1></center>
+    <center><img src='{{image}}' style="max-width: 100%;  
+          height: auto"></center>
+    <br>
+  <p style=" text-align: center; line-height: 1.5; ">Woahh {{name}}, Your personality matches with {{ text }}.{{desc}}
+  </p>
+<br>
+<!-- <p style="font-weight: bold;">Share your results:</p> -->
+<!-- <div class="social-media-links"><a class="social-media-link social-media-link--facebook" href="#"><i class="fab fa-facebook-f"></i></a><a class="social-media-link social-media-link--twitter" href="#"><i class="fab fa-twitter"></i></a><a class="social-media-link social-media-link--instagram" href="#"><i class="fab fa-instagram"></i></a><a class="social-media-link social-media-link--linkedin" href="#"><i class="fab fa-linkedin"></i></a><a class="social-media-link social-media-link--youtube" href="#"><i class="fab fa-youtube"></i></a></div> -->
+<br>
+ <center><a href="/" class="btn btn-primary active">Restart quiz</a><center>
+    <br>
+ </center>
+</div> 
+   <div class="container">
+  <center>
+   <iframe style="width:195px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=tf_til&ad_type=product_link&tracking_id=surya0a2-21&marketplace=amazon&amp;region=IN&placement=B07D37BHRN&asins=B07D37BHRN&linkId=13b23793c7d89b376d5041315219bb1e&show_border=true&link_opens_in_new_window=true&price_color=0a0a0a&title_color=ed1d2b&bg_color=faf2f2">
+         </iframe>
+   <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=tf_til&ad_type=product_link&tracking_id=surya0a2-21&marketplace=amazon&amp;region=IN&placement=B083DXS9KZ&asins=B083DXS9KZ&linkId=e548ca9076fbc55921290f593a5d0f73&show_border=true&link_opens_in_new_window=true&price_color=0a0a0a&title_color=ed1d2b&bg_color=faf2f2">
+  </iframe>
+</center>
+    <br><br>
+ <center> 
+    <iframe style="width:195px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=tf_til&ad_type=product_link&tracking_id=surya0a2-21&marketplace=amazon&amp;region=IN&placement=B0863BB2S6&asins=B0863BB2S6&linkId=6ba6070c7e0507ae68ed14e60c5b5a41&show_border=true&link_opens_in_new_window=true&price_color=0a0a0a&title_color=ed1d2b&bg_color=faf2f2">
+   </iframe>
+  <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=tf_til&ad_type=product_link&tracking_id=surya0a2-21&marketplace=amazon&amp;region=IN&placement=B096VF5YYF&asins=B096VF5YYF&linkId=20328580403d4343a5baadc93b9a73e5&show_border=true&link_opens_in_new_window=true&price_color=0a0a0a&title_color=ed1d2b&bg_color=faf2f2">
+  </iframe>
+   </center>
+  </div>
+
+
+<div id="footer">
+  <h4 style="text-align: center; padding-bottom: 2px;">Crew:</h4>
+                         
+  <div class='parent'>
+     <center>
+    <div class='child'style="padding-left: 2px;"><a href="https://www.linkedin.com/in/surya-d-b-b1132b206"> <i class="fa fa-linkedin-square" style="font-size:36px; color: #0E76A8"></i></a></div>
+    <div class='child' style="padding-right: 2px;">Surya</div>
+    <br>
+
+    <div class='child1' style="padding-left: 80px;"><a href="https://www.linkedin.com/in/aishwarya-s-b87740171/"> <i class="fa fa-linkedin-square" style="font-size:36px; color: #0E76A8"></i></a></div>
+    <div class='child1' style="padding-right: 37px;">Aishwarya</div>
+    <br>
+ 
+    <div class='child2' style="padding-left: 37px;"><a href="https://www.linkedin.com/in/rumesh-sree-k-g-74a21b18b/"><i class="fa fa-linkedin-square" style="font-size:36px; color: #0E76A8"></i></a></div>
+    <div class='child2' >Rumesh</div>
+  </div>
+     </center>
+</div>
+ 
+<script src="{{ url_for('static', filename='min.js')}}"></script>
+</body>
+</html>
