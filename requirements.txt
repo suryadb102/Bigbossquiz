@@ -8,4 +8,4 @@ PyJWT==2.3.0
 pandas==0.24.2
 pyrebase
 Pyrebase4
-scikit_learn<= 0.21.3
+
